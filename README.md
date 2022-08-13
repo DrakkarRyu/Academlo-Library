@@ -34,7 +34,7 @@ Remember to run the command py manage.py makemigrations
 ### Endpoints
 
 
-You can see all the urls or endpoint with this URI " http://127.0.0.1:8000/api/schema/swagger-ui/"
+You can see all the urls or endpoint with this URL " http://127.0.0.1:8000/api/schema/swagger-ui/"
 
 
 For to start the api first you need to make and superuser with the follow command ```py manage.py createsuperuser ``` after that you need to open
