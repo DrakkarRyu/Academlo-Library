@@ -1,28 +1,27 @@
 # Academlo-Library
 
-
 REST-API based in a library, where the users can rent and to see all avaible books, this app is developed with Django-Rest-Framework.
 
-
 ## Table of Contents
-
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Endpoints y Admin](#endpoints)
 - [SwaggerUI y JWT](#swaggerui)
 
-## Installation 
--Clone the repository 
--Create your virtual environment 
+## Installation
+
+-Clone the repository
+-Create your virtual environment
 -Activate your virtual environment
 -Execute the follow comand
 pip install -r requirements.txt // install all the requirements
-```
+
+````
 ## Usage
  Create the DB and run the migrations
 
-If you wanna run the api in local host you need to create a DB in postgress and to call to you BD as "library-api", 
+If you wanna run the api in local host you need to create a DB in postgress and to call to you BD as "library-api",
 then you need to make migrations "py manage.py migrate"
 
 
@@ -46,5 +45,6 @@ After to create the superuser, you can sign up with your credentials in the foll
 this this token you can make petitions as post, get or delete, you can make it with "postman".
 
 also you can make autorization or to run the methods in Swagger Ui just open the follow url
-```http://127.0.0.1:8000/api/schema/swagger-ui/ ``` and press in the button "authorize and sign up with the token that you generated before.
+```http://127.0.0.1:8000/api/schema/swagger-ui/ ``` and press in the button "authorize and sign in with the token that you generated before.
 
+````
